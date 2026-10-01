@@ -1,0 +1,23 @@
+{
+  "name": "jairo-digital",
+  "version": "1.0.0",
+  "description": "OpenAI ChatGPT integration starter for Jairo-digital",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "openai",
+    "chatgpt",
+    "express",
+    "api"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.48.1"
+  }
+}
